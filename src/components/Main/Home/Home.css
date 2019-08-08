@@ -1,0 +1,23 @@
+.Home {
+  margin: 2rem;
+  width: calc(100% - 4rem); 
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px
+} 
+.Home h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.Home p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}

@@ -1,0 +1,54 @@
+.MainMenu {
+    margin: 2rem;
+    height: calc(100% - 4rem);
+    width: calc(100% - 4rem);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    overflow: auto;
+}
+
+.MainMenu .menu {
+    position: relative;
+    width: 48%;
+    min-height: calc(100% / 5);
+    border-radius: .5rem;
+    margin: 10px;
+}
+
+.MainMenu .menu a {
+    padding: .5rem;
+    text-align: center;
+    display: flex;
+    color: white;
+    font-size: 1.25rem;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: .5rem;
+    background: blue;
+}
+
+.MainMenu .menu a:hover {
+    background: #14387d;
+}
+
+.MainMenu .delete {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: calc(100% - 20px);
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border-top-right-radius: .375rem;
+    border-bottom-left-radius: .375rem;
+    text-align: center;
+    line-height: 1;
+}

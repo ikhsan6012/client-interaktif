@@ -1,0 +1,54 @@
+.SideBar {
+    grid-row: span 2;
+    background: blue;
+    margin: .1rem .1rem .2rem .2rem;
+}
+  
+.SideBar .menu-list {
+    padding: .5rem;
+}
+
+.SideBar .list-item {
+    min-height: 3rem;
+    margin-bottom: .5rem;
+    font-size: 1.25rem;
+    position: relative;
+}
+
+.list-item a {
+    display: flex;
+    width: 100%;
+    min-height: 3rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: rgba(0, 0, 0, .5);
+    border-radius: .5rem;
+    text-align: center;
+    padding: .5rem;
+}
+
+.list-item a:hover,
+.list-item a.active {
+    background: rgb(255, 255, 0);
+    color: black;
+}
+
+
+.list-item .delete {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: calc(100% - 20px);
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border-top-right-radius: .3rem;
+    border-bottom-left-radius: .3rem;
+    text-align: center;
+    line-height: 1;
+}

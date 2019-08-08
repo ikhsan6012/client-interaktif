@@ -1,0 +1,10 @@
+.Footer {
+    background: blue;
+    margin: .1rem .2rem .2rem .1rem;
+    display: flex;
+    align-items: center;
+}
+
+.Footer marquee {
+    color: white;
+}

@@ -1,0 +1,98 @@
+.Content {
+    margin: .5rem;
+    height: calc(100% - 1rem);
+    width: calc(100% - 1rem);
+    display: flex;
+    flex-direction: column;
+}
+
+.Content .header {
+    display: grid;
+    background: #14387d;
+    border-radius: .5rem;
+    grid-template-columns: 15% 70% 15%;
+    margin-bottom: 1rem;
+}
+
+.Content .back,
+.Content .post {
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+    display: flex;
+}
+
+.Content .code {
+    align-items: center;
+    justify-content: left;
+    padding: .5rem;
+    display: flex;
+}
+
+.Content .code select {
+    width: 100%;
+    height: 100%;
+    background: yellow;
+    outline: none;
+    border: none;
+    border-radius: .25rem;
+    padding: .5rem;
+}
+
+button {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    border: none;
+    background: yellow;
+    border-radius: .25rem;
+}
+
+.Content button:hover {
+    cursor: pointer;
+    background: rgba(255, 255, 255, .5);
+    color: white;
+}
+
+.Content .title {
+    display: flex;
+    padding: 1rem .5rem;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+.Content .title input {
+    background-color: transparent;
+    /* border: none; */
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+}
+
+.Content .title input::placeholder {
+    color: white;
+}
+
+.Content .body {
+    flex-grow: 1;
+    padding: 0 1rem;
+    overflow: auto;
+}
+
+.Content .body ol,
+.Content .body ul {
+    padding-inline-start: inherit;
+}
+
+.public-DraftEditorPlaceholder-inner {
+    color: black;
+}
